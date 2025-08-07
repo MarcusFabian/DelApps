@@ -45,7 +45,7 @@ source "$VENV_PATH/bin/activate"
 echo -e "${GREEN}🚀 Starting App Duplicate Remover...${NC}"
 echo ""
 
-python3 "$SCRIPT_DIR/app_remover_standalone.py" "$@"
+python3 "$SCRIPT_DIR/_app_remover_standalone.py" "$@"
 
 # Deactivate virtual environment
 deactivate

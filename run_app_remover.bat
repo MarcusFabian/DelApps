@@ -21,7 +21,7 @@ echo 🐍 Using Python to run App Duplicate Remover...
 echo.
 
 REM Run the standalone Python script with all arguments
-python "%SCRIPT_DIR%app_remover_standalone.py" %*
+python "%SCRIPT_DIR%_app_remover_standalone.py" %*
 
 echo.
 echo ✅ App Duplicate Remover finished
