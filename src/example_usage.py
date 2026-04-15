@@ -13,7 +13,7 @@ from pathlib import Path
 project_root = Path(__file__).parent.parent
 sys.path.insert(0, str(project_root))
 
-from _app_duplicate_remover import main
+from app_duplicate_remover import main
 
 
 def example_usage():

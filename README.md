@@ -110,6 +110,9 @@ from src.app_duplicate_remover import main
 main(directory="/path/to/app/files", dry_run=False)  # Execute
 main(directory="/path/to/app/files", dry_run=True)   # Preview
 ```
+example: 
+DelApps % python src/app_duplicate_remover.py --directory=/Users/marcu/Documents/AL/Iseppi/.alpackages
+
 
 ## Quick Start (No VS Code Required)
 
